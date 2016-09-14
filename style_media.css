@@ -1,0 +1,135 @@
+
+
+
+@media screen and (max-width:977px){
+    #content{width: 54%; padding-right: 10px;}
+    #footer{width: 100%;}
+    .Lorem{width: 55%;}
+    #inner-menu, #wraipper, #middle-content, #header, #bottem-contend{width: 100%; padding: 0;}
+    #sidebar{}
+    .Lorem {width: 100%;float: none;}
+    .post{width: 100%;}
+    #bottem-contend>.left{text-align: center;width: 85%; margin: 0 auto; float: none;}
+    #bottem-contend>.right{text-align: center;width: 85%;margin: 0 auto;float: none;}
+    #bottem-contend>.left a{width: 85%;}
+    #bottem-contend>.right a{width: 85%;}
+
+    
+     p,a{font-size: 18px;}
+    
+    
+}
+
+@media screen and (max-width:800px){
+    
+    #header{width:100%; }
+    #logo{width: 180px; height: 36px; float: left; margin: 32px 0 22px 20px;}
+    #logo a img{width: 170px; height: 35px;}
+    #baner{width: 368px; height: 50px; float: right; margin: 22px 30px 22px 0;}
+    #baner a img{ width: 368px; height: 50px;}
+    #inner-menu ul .eliment_1,#inner-menu ul .eliment_2{width: 420px; margin: 0 auto; overflow: hidden;}
+    #inner-menu ul .eliment_2{width: 365px; transform: translateX(-3%);}
+    .footer-box{margin: 0;}
+     #middle-content{width: 50%;}
+    #bottem-contend .left{margin: 0 auto;}
+    #bottem-contend .right{margin: 0 auto;}
+    
+    
+    .eliment_1{overflow: hidden;width: 534px;}
+    .eliment_2{overflow: hidden; width: 481px;}
+}
+
+
+
+@media screen and (max-width:925px){
+    boxfoot1{float: left;}
+    .boxfoot2{float: right;padding-left: 10px;padding-right: 10px;}
+    
+    boxfoot1,.boxfoot2{margin-right: 0;}
+    
+    #middle-content{width: 77%;}
+    #footer-box{float: none;clear: right;}
+    .boxfoot3{padding-top: 108px;padding-left:10px; }
+}
+
+
+@media screen and (max-width:776px){
+    #bottem-contend .right{background-image: url(images/fBG.jpg);}
+    #bottem-contend .left,.right{ text-align: center;float: none;}
+    .ul_box .right{float: right; text-align: left;}
+}
+
+#sidebar
+
+@media screen and (max-width:732px){
+    #sidebar{padding-right: 10px;}
+    .boxfoot3{margin-left: 10px;}
+}
+
+
+@media screen and (max-width:720px){
+    .footer-box{padding-top: 30px;}
+    .thubnail{margin: 0 auto;margin-bottom: 15px; margin-right: 15px;}
+    .post{float: left;}
+    #logo{width: 140px; height: 30px; float: left; margin: 20px 0 20px 10px;}
+    #logo a img{width: 140px; height: 30px;}
+    #baner{width: 368px; height: 50px; float: right; margin: 15px 20px 10px 15px;}
+    #baner a img{ width: 368px; height: 50px;}
+    #content{margin-right: 0px; width: 96%;padding-bottom: 20px;}
+    .box_sidrbar1{float: left; margin-left: 10px;}
+    .box_sidrbar2{float:right;margin-right: 10px;}
+    #sidebar{width: 100%; padding: 0; margin-bottom: 30px;}
+    
+    
+    #middle-content{width: 100%;}
+    .boxfoot1{float: none;}
+    .boxfoot2{float: none;}
+    .boxfoot3{float: none;}
+    .footer-box{width: 96%;}
+}
+
+@media screen and (max-width:590px){
+    .box_sidrbar1{ margin: 0 auto;float: none;}
+    .box_sidrbar2{ margin: 0 auto;float: none;}
+    .ul_box{width: 300px; margin: 0 auto;}
+    #sidebar{text-align: center;}  
+    .ul_box .left{float: none; margin: 0 auto;}
+    .ul_box .right{float: none; margin: 0 auto;}
+}
+@media screen and (max-width:581px){
+    #baner{width: 90%;  height: 20%; float: none; clear: right; margin: 0 auto;}
+    #baner a img{ width: 100%; height: 100%; margin: 0 auto;}
+    #logo{width: 35%; height: 25%; float: left; margin: 10px 0 5px 10px;}
+    #logo a img{width: 100%; height: 100%;}
+    .footer-box{padding-top: 20px;}
+    .footer-box img{width: 35%;height: 25%}
+    
+}
+
+@media screen and (max-width:602px){
+    .ul_box .right{text-align: center;}
+    
+}
+
+@media screen and (max-width:480px){
+    .post-contrnt{margin: 0; clear: left;}
+    .ul_box{width: 280px;}
+    .menu{display: block;}
+    
+}
+
+
+@media screen and (max-width:420px){
+    .eliment_1,.eliment_2{width: 100%; display: inline;}
+    .menu_trigger{width:100%; background-color: #3a3a3a; overflow: hidden;}
+    .menu_trigger>img{display: block; width:45px; height: 45px; float: right; overflow: hidden;}
+    .menu_trigger p{display: block;}
+    .menu{display: none; text-align: center;}
+    #inner-menu ul{ padding-top: 45px;}
+    #inner-menu ul li{float: none; text-align: center;}
+    #inner-menu a {text-align: center; padding: 10px 0px;}
+    #content{margin-top: 20px;}
+    .post-contrnt h2{font-size: 14px;font-weight: bold;}
+    .footer-box{width: 93%;}
+}
+
